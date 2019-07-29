@@ -16,18 +16,24 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\HomeController\**" />
+    <Compile Remove="Views\_ViewStart\**" />
+    <Compile Remove="Views\_ViewImports.cshtml.cs" />
+    <Compile Remove="Views\_ViewStart.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Remove="Controllers\HomeController\**" />
+    <EmbeddedResource Remove="Views\_ViewStart\**" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Controllers\HomeController\**" />
+    <None Remove="Views\_ViewStart\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Remove="Controllers\HomeController\**" />
+    <Content Remove="Views\_ViewStart\**" />
   </ItemGroup>
 
 </Project>
